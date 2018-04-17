@@ -5,12 +5,25 @@ body{
     margin: 0;
     position: relative;
   }
-  form{
+  section{
+    display: flex;
+  }
+  .left{
+      width: 50%;
+  }
+  .right{
+    width: 50%;
+    background-color: #2d3a4e;
+    padding: 40px;
     width: 320px;
     margin: 0 auto;
-    background-color: white;
-    padding: 40px;
+  }
+  .right h4, .right p{
+      color: #acd15d;
+  }
+  form{
     margin-top: 20px;
+    color: white;
   }
   p{ margin: 0; }
   input{
@@ -18,12 +31,24 @@ body{
     height: 15px;
     margin: 10px 0;
     padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f6f6f6;
+  }
+  input::placeholder{
+      color: rgba(255,255,255,0.5)
+  }
+  textarea{
+      background-color: transparent;
+      border: 1px solid #f6f6f6;
+      width: 100%;
+      width: 97.5%;
   }
   button{
     margin-top: 15px;
     width: 100%;
     padding: 10px;
-    background: #2ee1d6;
+    background: #acd15d;
     border: none;
     border-radius: 3px;
     color: white;

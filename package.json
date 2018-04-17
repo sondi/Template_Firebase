@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sondi/Template_Firebase/issues"
   },
-  "homepage": "https://github.com/sondi/Template_Firebase#readme"
+  "homepage": "https://github.com/sondi/Template_Firebase#readme",
+  "devDependencies": {
+    "firebase-tools": "3.18.4"
+  }
 }
