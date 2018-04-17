@@ -1,11 +1,15 @@
 body{
-    background-color: #f3f3f3;
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    padding: 0;
+    padding: 20px;
     margin: 0;
     position: relative;
+    width: 100vw;
+    height: 100vh;
   }
-  section{
+  .container{
     display: flex;
   }
   .left{
@@ -18,8 +22,9 @@ body{
     width: 320px;
     margin: 0 auto;
   }
-  .right h4, .right p{
+  .right h2, .right p{
       color: #acd15d;
+      margin: 0 0 10px 0;
   }
   form{
     margin-top: 20px;
@@ -43,6 +48,7 @@ body{
       border: 1px solid #f6f6f6;
       width: 100%;
       width: 97.5%;
+      margin-top: 20px;
   }
   button{
     margin-top: 15px;
