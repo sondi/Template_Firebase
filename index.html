@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase Development Template</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="" alt="Logo">
+    </header>
+    <section>
+        <div class="left">
+            <h1>Taller Híbrido</h1>
+            <p>Resolvemos problemas relacionados con la sustentabilidad en el marco del entorno construido.</p>
+        </div>
+        <div class="right">
+            <h4>¿Tienes un proyecto en mente?</h4>
+            <p>Escríbenos y nos pondremos en contacto contigo.</p>
+            <form action="" name='registro' id="registro">
+                    <p>
+                      <label>Nombre Completo</label>
+                      <label>
+                        <input id="regName" type="text" name="nombre"  placeholder="first name">
+                      </label>
+                      <p id="errorName" class="error"></p>
+                    </p>
+                    <p>
+                        <label>Empresa</label>
+                            <label>
+                              <input id="regCompany" type="text" name="company"  placeholder="Company">
+                            </label>
+                            <p id="errorName" class="error"></p>
+                          </p>
+                    <p>
+                      <label>Teléfono</label>
+                      <label>
+                        <input id="regPhone" type="number" name="Telefono" placeholder="ex: 5555 5555">
+                      </label>
+                      <p id="errorTel" class="error"></p>
+                    </p>
+                    <p>
+                        <label>Correo electrónico:</label><br>
+                        <label>
+                            <input id='username' type="email" name="Correo Electronico" placeholder="mail@mimail.com">
+                        </label>
+                        <p id="errorEmail" class="error"></p>
+                    </p>
+                    
+                    <button type="submit" id="submit">Enviar</button>
+                    <p id="placeholder"></p>
+                  </form>
+                  <div class ="error"></div>
+        </div>
+    </section>
+</body>
+<script src="js/index.js"></script>
+</html>
